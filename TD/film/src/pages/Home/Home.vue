@@ -64,7 +64,7 @@
               </div>
             </div>
             <!-- 购票 -->
-            <div class="buy" @click="$router.push({path:'/select_cinema',query:{movie_id:item.movie_id}})">
+            <div class="buy" @click="$router.push('/cinema_detail')">购票
             </div>
           </div>
         </div>
@@ -82,9 +82,9 @@
           <!-- 列表 -->
           <div class="item">
             <!-- 循环生成 -->
-            <img src="./images/hot-movie/hot1.jpg" alt="">
+            <!-- <img src="./images/hot-movie/hot1.jpg" alt=""> -->
             <!-- 观影人数 -->
-            <div style="postion:relative">
+            <!-- <div style="postion:relative">
               <div class="peopleNumber">
                 <span class="number" style="font-size: .3rem;font-weight: 600">
                   12
@@ -92,21 +92,21 @@
                 <span>人想看</span>
                 <span class="number">暂无想看</span>
               </div>
-            </div>
+            </div> -->
             <!-- 预售 -->
-            <div class="presell">
+            <!-- <div class="presell">
               <div class="name ellipsis">
                 电影名称
               </div>
-              <div class="info">
+              <div class="info"> -->
                 <!-- 预售日期 -->
-                <span class="date">
+                <!-- <span class="date">
                   12月31日
-                </span>
+                </span> -->
                 <!-- 预售按钮 select_cinema-->
-                <span class="btn" @click="$router.push('/cinema_detail')">预售</span>
+                <!-- <span class="btn" @click="$router.push('/cinema_detail')">预售</span>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
